@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE776C9825B5D98A009F3DD0 /* GameTurnTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE776C9725B5D98A009F3DD0 /* GameTurnTimerApp.swift */; };
+		CE776C9A25B5D98A009F3DD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE776C9925B5D98A009F3DD0 /* ContentView.swift */; };
+		CE776C9C25B5D98B009F3DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE776C9B25B5D98B009F3DD0 /* Assets.xcassets */; };
+		CE776C9F25B5D98B009F3DD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE776C9E25B5D98B009F3DD0 /* Preview Assets.xcassets */; };
+		CE776CA825B5D9CD009F3DD0 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE776CA725B5D9CD009F3DD0 /* Game.swift */; };
+		CE776CAB25B5DA2C009F3DD0 /* GameSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE776CAA25B5DA2C009F3DD0 /* GameSettingsView.swift */; };
+		CE776CB025B5E4FE009F3DD0 /* GameTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE776CAF25B5E4FE009F3DD0 /* GameTimerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE776C9425B5D98A009F3DD0 /* GameTurnTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameTurnTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE776C9725B5D98A009F3DD0 /* GameTurnTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTurnTimerApp.swift; sourceTree = "<group>"; };
+		CE776C9925B5D98A009F3DD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE776C9B25B5D98B009F3DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE776C9E25B5D98B009F3DD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE776CA025B5D98B009F3DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE776CA725B5D9CD009F3DD0 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		CE776CAA25B5DA2C009F3DD0 /* GameSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettingsView.swift; sourceTree = "<group>"; };
+		CE776CAF25B5E4FE009F3DD0 /* GameTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTimerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE776C9125B5D98A009F3DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE776C8B25B5D98A009F3DD0 = {
+			isa = PBXGroup;
+			children = (
+				CE776C9625B5D98A009F3DD0 /* GameTurnTimer */,
+				CE776C9525B5D98A009F3DD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE776C9525B5D98A009F3DD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE776C9425B5D98A009F3DD0 /* GameTurnTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE776C9625B5D98A009F3DD0 /* GameTurnTimer */ = {
+			isa = PBXGroup;
+			children = (
+				CE776C9725B5D98A009F3DD0 /* GameTurnTimerApp.swift */,
+				CE776C9925B5D98A009F3DD0 /* ContentView.swift */,
+				CE776CAA25B5DA2C009F3DD0 /* GameSettingsView.swift */,
+				CE776CAF25B5E4FE009F3DD0 /* GameTimerView.swift */,
+				CE776CA725B5D9CD009F3DD0 /* Game.swift */,
+				CE776C9B25B5D98B009F3DD0 /* Assets.xcassets */,
+				CE776CA025B5D98B009F3DD0 /* Info.plist */,
+				CE776C9D25B5D98B009F3DD0 /* Preview Content */,
+			);
+			path = GameTurnTimer;
+			sourceTree = "<group>";
+		};
+		CE776C9D25B5D98B009F3DD0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE776C9E25B5D98B009F3DD0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE776C9325B5D98A009F3DD0 /* GameTurnTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE776CA325B5D98B009F3DD0 /* Build configuration list for PBXNativeTarget "GameTurnTimer" */;
+			buildPhases = (
+				CE776C9025B5D98A009F3DD0 /* Sources */,
+				CE776C9125B5D98A009F3DD0 /* Frameworks */,
+				CE776C9225B5D98A009F3DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameTurnTimer;
+			productName = GameTurnTimer;
+			productReference = CE776C9425B5D98A009F3DD0 /* GameTurnTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE776C8C25B5D98A009F3DD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					CE776C9325B5D98A009F3DD0 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = CE776C8F25B5D98A009F3DD0 /* Build configuration list for PBXProject "GameTurnTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE776C8B25B5D98A009F3DD0;
+			productRefGroup = CE776C9525B5D98A009F3DD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE776C9325B5D98A009F3DD0 /* GameTurnTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE776C9225B5D98A009F3DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE776C9F25B5D98B009F3DD0 /* Preview Assets.xcassets in Resources */,
+				CE776C9C25B5D98B009F3DD0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE776C9025B5D98A009F3DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE776C9A25B5D98A009F3DD0 /* ContentView.swift in Sources */,
+				CE776CA825B5D9CD009F3DD0 /* Game.swift in Sources */,
+				CE776CB025B5E4FE009F3DD0 /* GameTimerView.swift in Sources */,
+				CE776C9825B5D98A009F3DD0 /* GameTurnTimerApp.swift in Sources */,
+				CE776CAB25B5DA2C009F3DD0 /* GameSettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE776CA125B5D98B009F3DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE776CA225B5D98B009F3DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE776CA425B5D98B009F3DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GameTurnTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 6KQ8QD7A2P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GameTurnTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.test.GameTurnTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE776CA525B5D98B009F3DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GameTurnTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 6KQ8QD7A2P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GameTurnTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.test.GameTurnTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE776C8F25B5D98A009F3DD0 /* Build configuration list for PBXProject "GameTurnTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE776CA125B5D98B009F3DD0 /* Debug */,
+				CE776CA225B5D98B009F3DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE776CA325B5D98B009F3DD0 /* Build configuration list for PBXNativeTarget "GameTurnTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE776CA425B5D98B009F3DD0 /* Debug */,
+				CE776CA525B5D98B009F3DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE776C8C25B5D98A009F3DD0 /* Project object */;
+}
